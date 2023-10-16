@@ -8,11 +8,11 @@ const { tracker } = useTracker();
 
 <template>
   <div mx-auto mt-50px max-w-600px>
-    <h1>About IT-Tools</h1>
+    <h1>About Meow</h1>
     <p text-justify>
       This wonderful website, made with ❤ by
       <c-link href="https://github.com/CorentinTh" target="_blank" rel="noopener">
-        Corentin Thomasset
+        IT Tools - Corentin Thomasset
       </c-link>,
       aggregates useful tools for developer and people working in IT. If you find it useful, please feel free to share
       it to people you think may find it useful too and don't forget to bookmark it in your shortcut bar!

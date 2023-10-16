@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BrandGithub, BrandTwitter, InfoCircle, Moon, Sun } from '@vicons/tabler';
+import { BrandGithub, InfoCircle, Moon, Sun } from '@vicons/tabler';
 import { useStyleStore } from '@/stores/style.store';
 
 const styleStore = useStyleStore();
@@ -19,21 +19,7 @@ const { isDarkTheme } = toRefs(styleStore);
       <n-icon size="25" :component="BrandGithub" />
     </c-button>
   </c-tooltip>
-
-  <c-tooltip tooltip="Twitter account" position="bottom">
-    <c-button
-      circle
-      variant="text"
-      href="https://twitter.com/ittoolsdottech"
-      rel="noopener"
-      target="_blank"
-      aria-label="IT Tools' Twitter account"
-    >
-      <n-icon size="25" :component="BrandTwitter" />
-    </c-button>
-  </c-tooltip>
-
-  <c-tooltip tooltip="About IT-Tools" position="bottom">
+  <c-tooltip tooltip="About Meow" position="bottom">
     <c-button circle variant="text" to="/about" aria-label="About">
       <n-icon size="25" :component="InfoCircle" />
     </c-button>
