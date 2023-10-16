@@ -41,7 +41,7 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div class="divider"/>
           <div class="subtitle">
-            <i>"What Happens in Strollby Stays in Strollby"</i>
+            <i>"Copy it Meow it"</i>
           </div>
         </div>
       </RouterLink>
